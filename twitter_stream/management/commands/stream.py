@@ -95,7 +95,6 @@ class Command(BaseCommand):
             type=int,
             help='Limit the number of tweets, used ONLY if streaming from a file.'
         )
-    )
     args = '<keys_name>'
     help = "Starts a streaming connection to Twitter"
 
